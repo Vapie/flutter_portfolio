@@ -17,7 +17,7 @@ class ContactPageDesk extends StatelessWidget {
           textAlign: TextAlign.center,
           ),
           SizedBox(height: 10,),
-          Text('DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.',
+          Text('WANT TO DISCUSS ABOUT SOMETHING? FEEL FREE TO EMAIL ME!     👋',
           style: TextStyle(color: Colors.grey, fontSize: 22),),
           SizedBox(height: 10,),
           Row(
@@ -25,7 +25,7 @@ class ContactPageDesk extends StatelessWidget {
               Text('☎️',
           style: TextStyle(color: Colors.grey, fontSize: 28),),
           SizedBox(width: 10,),
-          Text('+91 ***** *****',
+          Text('+33(0) 659 028 749',
           style: TextStyle(color: Colors.grey, fontSize: 28, fontStyle: FontStyle.italic),),
             ],
           ),
@@ -35,7 +35,7 @@ class ContactPageDesk extends StatelessWidget {
               Text('✉️',
           style: TextStyle(color: Colors.grey, fontSize: 28),),
           SizedBox(width: 10,),
-              Text('j***********n@gmail.com',
+              Text('vapie.valentin@gmail.com',
           style: TextStyle(color: Colors.grey, fontSize: 28, fontStyle: FontStyle.italic),),
            ],
          ),
@@ -47,40 +47,10 @@ class ContactPageDesk extends StatelessWidget {
                 Expanded(
                                   child: Container( width: 60,height: 60,
                     child: IconButton(
-                      icon: Icon(FontAwesomeIcons.facebook, color: Colors.blue, size: 40,),
-                       onPressed:  () 
-                        {
-                       js.context.callMethod("open", ["https://www.facebook.com/naveenjujaray"]);
-                       },
-                       )),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child:  GestureDetector(
-                      child: Icon(FontAwesomeIcons.twitter, color: Colors.lightBlue, size: 40,),
-                      onTap: () {
-                       js.context.callMethod("open", ["https://twitter.com/naveenjujaray"]);
-                       },
-                      ),
-                       ),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
                       icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ),
                        onPressed: ()
                        {
-                       js.context.callMethod("open", ["https://www.linkedin.com/in/naveenjujaray"]);
-                       },
-                       )),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.bloggerB, color: Colors.red, size: 40,),
-                       onPressed: ()
-                       {
-                       js.context.callMethod("open", ["https://naveenjujaray.js.org"]);
+                       js.context.callMethod("open", ["https://www.linkedin.com/in/valentin-tapie-b8692b208/"]);
                        },
                        )),
                 ),
@@ -90,49 +60,29 @@ class ContactPageDesk extends StatelessWidget {
                       icon: Icon(FontAwesomeIcons.github,  size: 40,), 
                       onPressed: ()
                       {
-                       js.context.callMethod("open", ["https://www.github.com/naveenjujaray"]);
+                       js.context.callMethod("open", ["https://github.com/Vapie"]);
                        },
                       )),
                 ),
                 Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.gitlab, color: Colors.orange, size: 40,), 
-                      onPressed: ()
-                      {
-                       js.context.callMethod("open", ["https://www.gitlab.com/naveenjujaray"]);
-                       },
+                  child: Container( width: 60,height: 60,
+                      child: IconButton(
+                        icon: Icon(FontAwesomeIcons.instagram,  size: 40,),
+                        onPressed: ()
+                        {
+                          js.context.callMethod("open", ["https://www.instagram.com/vapieeeeee/"]);
+                        },
                       )),
                 ),
                 Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.medium,  size: 40,), 
-                      onPressed: ()
-                      {
-                       js.context.callMethod("open", ["https://medium.com/@naveenjujaray"]);
-                       },
-                       )),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.dev, size: 40,), 
-                      onPressed: ()
-                      {
-                       js.context.callMethod("open", ["https://dev.to/naveenjujaray"]);
-                       },
-                       )),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.reddit, color: Colors.deepOrangeAccent,size: 40,), 
-                      onPressed: ()
-                      {
-                       js.context.callMethod("open", ["https://www.reddit.com/user/jujaraynaveen"]);
-                       },
-                       )),
+                  child: Container( width: 60,height: 60,
+                      child: IconButton(
+                        icon: Icon(FontAwesomeIcons.mailBulk,  size: 40,),
+                        onPressed: ()
+                        {
+                          js.context.callMethod("open", ["mailto:vapie.valentin@gmail.com?subject=Contact&body=Hello,"]);
+                        },
+                      )),
                 ),
               ],
             ),
@@ -157,7 +107,7 @@ class ContactPageTab extends StatelessWidget {
             
             ),
             SizedBox(height: 10,),
-            Text('DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.',
+            Text('WANT TO DISCUSS ABOUT SOMETHING? FEEL FREE TO EMAIL ME!     👋',
             style: TextStyle(color: Colors.grey, fontSize: 22),
             ),
             SizedBox(height: 10,),
@@ -166,7 +116,7 @@ class ContactPageTab extends StatelessWidget {
                 Text('☎️',
             style: TextStyle(color: Colors.grey, fontSize: 28),),
             SizedBox(width: 10,),
-            Text('+91 ***** *****',
+            Text('+33(0) 659 028 749',
             style: TextStyle(color: Colors.grey, fontSize: 28, fontStyle: FontStyle.italic),
             ),
               ],
@@ -177,7 +127,7 @@ class ContactPageTab extends StatelessWidget {
                 Text('✉️',
             style: TextStyle(color: Colors.grey, fontSize: 28),),
             SizedBox(width: 10,),
-                Text('j***********n@gmail.com',
+                Text('vapie.valentin@gmail.com',
             style: TextStyle(color: Colors.grey, fontSize: 28, fontStyle: FontStyle.italic),
             ),
              ],
@@ -187,95 +137,44 @@ class ContactPageTab extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.facebook, color: Colors.blue, size: 40,), 
-                        onPressed: () 
+                    child: Container( width: 60,height: 60,
+                        child: IconButton(
+                          icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ),
+                          onPressed: ()
                           {
-                         js.context.callMethod("open", ["https://www.facebook.com/naveenjujaray"]);
-                         },
-                         )),
+                            js.context.callMethod("open", ["https://www.linkedin.com/in/valentin-tapie-b8692b208/"]);
+                          },
+                        )),
                   ),
                   Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.twitter, color: Colors.lightBlue, size: 40,), 
-                        onPressed: ()
-                         {
-                         js.context.callMethod("open", ["https://twitter.com/naveenjujaray"]);
-                         },
-                         )),
+                    child: Container( width: 60,height: 60,
+                        child: IconButton(
+                          icon: Icon(FontAwesomeIcons.github,  size: 40,),
+                          onPressed: ()
+                          {
+                            js.context.callMethod("open", ["https://github.com/Vapie"]);
+                          },
+                        )),
                   ),
                   Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ), 
-                        onPressed: ()
-                         {
-                         js.context.callMethod("open", ["https://www.linkedin.com/in/naveenjujaray"]);
-                         },
-                         )),
+                    child: Container( width: 60,height: 60,
+                        child: IconButton(
+                          icon: Icon(FontAwesomeIcons.instagram,  size: 40,),
+                          onPressed: ()
+                          {
+                            js.context.callMethod("open", ["https://www.instagram.com/vapieeeeee/"]);
+                          },
+                        )),
                   ),
                   Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.bloggerB, color: Colors.red, size: 40,), 
-                        onPressed: ()
-                         {
-                         js.context.callMethod("open", ["https://naveenjujaray.js.org"]);
-                         },
-                         )),
-                  ),
-                  Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-
-                        icon: Icon(FontAwesomeIcons.github, size: 40,),
-                        onPressed:()
-                        {
-                         js.context.callMethod("open", ["https://www.github.com/naveenjujaray"]);
-                         },
-                         )),
-                  ),
-                  Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.gitlab, color: Colors.orange, size: 40,), 
-                        onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://www.gitlab.com/naveenjujaray"]);
-                         },
-                         )),
-                  ),
-                  Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.medium,  size: 40,), 
-                        onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://medium.com/@naveenjujaray"]);
-                         },
-                         )),
-                  ),
-                  Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.dev, size: 40,), 
-                        onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://dev.to/naveenjujaray"]);
-                         },
-                         )),
-                  ),
-                  Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.reddit, color: Colors.deepOrangeAccent,size: 40,), 
-                        onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://www.reddit.com/user/jujaraynaveen"]);
-                         },
-                         )),
+                    child: Container( width: 60,height: 60,
+                        child: IconButton(
+                          icon: Icon(FontAwesomeIcons.mailBulk,  size: 40,),
+                          onPressed: ()
+                          {
+                            js.context.callMethod("open", ["mailto:vapie.valentin@gmail.com?subject=Contact&body=Hello,"]);
+                          },
+                        )),
                   ),
                 ],
               ),
@@ -302,7 +201,7 @@ class ContactPageMob extends StatelessWidget {
             
             ),
             SizedBox(height: 10,),
-            Text('DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.',
+            Text('WANT TO DISCUSS ABOUT SOMETHING? FEEL FREE TO EMAIL ME!     👋',
             style: TextStyle(color: Colors.grey, fontSize: 18),),
             SizedBox(height: 25,),
             Row(
@@ -312,7 +211,7 @@ class ContactPageMob extends StatelessWidget {
             style: TextStyle(color: Colors.grey, fontSize: 22),
             ),
             SizedBox(width: 10,),
-            Text('+91 ***** *****',
+            Text('+33(0) 659 028 749',
               style: TextStyle(color: Colors.grey, fontSize: 20, fontStyle: FontStyle.italic),
               ),
               ],
@@ -329,7 +228,7 @@ class ContactPageMob extends StatelessWidget {
             SizedBox(width: 10,),
                 Expanded(
                                 child: Container(
-                                  child: Text('j***********n@gmail.com',
+                                  child: Text('vapie.valentin@gmail.com',
             style: TextStyle(color: Colors.grey, fontSize: 20, fontStyle: FontStyle.italic),
             ),
                                 ),
@@ -342,22 +241,6 @@ class ContactPageMob extends StatelessWidget {
                 children: [
                   Container( width: 55,height: 55,
                     child: IconButton(
-                      icon: Icon(FontAwesomeIcons.facebook, color: Colors.blue, size: 40,), 
-                      onPressed: () 
-                          {
-                         js.context.callMethod("open", ["https://www.facebook.com/naveenjujaray"]);
-                         },
-                         )),
-                  Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.twitter, color: Colors.lightBlue, size: 40,), 
-                      onPressed: ()
-                         {
-                         js.context.callMethod("open", ["https://twitter.com/naveenjujaray"]);
-                         },
-                         )),
-                  Container( width: 55,height: 55,
-                    child: IconButton(
                       icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ), 
                       onPressed: ()
                          {
@@ -365,60 +248,34 @@ class ContactPageMob extends StatelessWidget {
                          },
                          )),
                   Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.bloggerB, color: Colors.red, size: 40,), 
-                      onPressed: ()
-                         {
-                         js.context.callMethod("open", ["https://naveenjujaray.js.org"]);
-                         },
-                         )),
+                      child: IconButton(
+                        icon: Icon(FontAwesomeIcons.github,  size: 40,), onPressed: ()
+                      {
+                        js.context.callMethod("open", ["https://www.linkedin.com/in/valentin-tapie-b8692b208/"]);
+                      },
+                      )),
                   Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.github,  size: 40,), onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://www.github.com/naveenjujaray"]);
-                         },
-                         )),
+                      child: IconButton(
+                        icon: Icon(FontAwesomeIcons.instagram,  size: 40,), onPressed: ()
+                      {
+                        js.context.callMethod("open", ["https://www.instagram.com/vapieeeeee/"]);
+                      },
+                      )),
+                  Container( width: 55,height: 55,
+                      child: IconButton(
+                        icon: Icon(FontAwesomeIcons.mailBulk,  size: 40,), onPressed: ()
+                      {
+                        js.context.callMethod("open", ["mailto:vapie.valentin@gmail.com?subject=Contact&body=Hello,"]);
+                      },
+                      )),
+
                 ],
               ),
-              Row(mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                 Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.gitlab, color: Colors.orange, size: 40,), 
-                      onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://www.gitlab.com/naveenjujaray"]);
-                         },
-                         )),
-                  Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.medium,  size: 40,), 
-                      onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://medium.com/@naveenjujaray"]);
-                         },
-                         )),
-                  Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.dev, size: 40,), 
-                      onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://dev.to/naveenjujaray"]);
-                         },
-                         )),
-                  Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.reddit, color: Colors.deepOrangeAccent,size: 40,),
-                     onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://www.reddit.com/user/jujaraynaveen"]);
-                         },)),
-              ],
-              ),
-          ],
-        ),
-      ),
+
+    ],
+    ),
+
+    ),
     );
   }
 }
