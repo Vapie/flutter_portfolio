@@ -26,7 +26,7 @@ class AchieveDesk extends StatelessWidget {
           scrollDirection: Axis.horizontal,
           child: Container(
               height: 350,
-              width: 1000,
+              width: 2000,
               child: Row(children: [
                 SizedBox(
                   width: 25,

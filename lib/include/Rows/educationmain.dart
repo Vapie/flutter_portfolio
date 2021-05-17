@@ -212,7 +212,7 @@ class EduTab extends StatelessWidget {
                       shape: BoxShape.circle,
                       image: DecorationImage(
                         fit: BoxFit.fitWidth,
-                        image: AssetImage('assets/images/ATMB_LOGO_rvb.png'),
+                        image: AssetImage('assets/images/ATMB_logo_RVB.png'),
                       ),
                     ),
                     //child: Image.asset('assets/images/gitam.png'),
@@ -347,7 +347,7 @@ class EduMob extends StatelessWidget {
                     shape: BoxShape.circle,
                     image: DecorationImage(
                       fit: BoxFit.fitWidth,
-                      image: AssetImage('assets/images/ATMB_LOGO_rvb.png'),
+                      image: AssetImage('assets/images/ATMB_logo_RVB.png'),
                     ),
                   ),
                   //child: Image.asset('assets/images/gitam.png'),

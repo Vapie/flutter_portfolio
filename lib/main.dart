@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
       initial: savedThemeMode ?? AdaptiveThemeMode.dark,
       builder: (theme, darkTheme) => MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'DeveloperFolio',
+        title: 'Vapie',
         theme: theme,
         darkTheme: darkTheme,
         home: LayoutTemplate(),

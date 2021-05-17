@@ -88,7 +88,8 @@ class WelcomePageDesk extends StatelessWidget {
               SizedBox(width: 50,),
                Expanded(
                   child: GestureDetector(
-                    onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"]);
+                    //TODO
+    //              0120onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"]);
                     },
                                       child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
