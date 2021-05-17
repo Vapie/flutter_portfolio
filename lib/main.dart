@@ -26,13 +26,13 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.amber,
       ),
       dark: ThemeData(
-        backgroundColor: Colors.black,
-        scaffoldBackgroundColor: Colors.black,
-        brightness: Brightness.dark,
+        backgroundColor:  Color(0xFFD7DADE),
+        scaffoldBackgroundColor: Color(0xFFD7DADE),
+        brightness: Brightness.light,
         primarySwatch: Colors.red,
         accentColor: Colors.amber,
       ),
-      initial: savedThemeMode ?? AdaptiveThemeMode.light,
+      initial: savedThemeMode ?? AdaptiveThemeMode.dark,
       builder: (theme, darkTheme) => MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'DeveloperFolio',

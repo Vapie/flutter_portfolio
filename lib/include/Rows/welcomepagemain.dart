@@ -28,7 +28,7 @@ class WelcomePageDesk extends StatelessWidget {
                 Expanded(
                   child: Container( width: 60,height: 60,
                       child: IconButton(
-                        icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ),
+                        icon: Icon(FontAwesomeIcons.linkedin, color: Color(0xFFFF80AB), size: 40, ),
                         onPressed: ()
                         {
                           js.context.callMethod("open", ["https://www.linkedin.com/in/valentin-tapie-b8692b208/"]);
@@ -79,7 +79,7 @@ class WelcomePageDesk extends StatelessWidget {
                 child: Text('CONTACT ME', 
          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white,),),
                 decoration: BoxDecoration(
-         color: Colors.blueAccent,
+         color: Color(0xFFFF80AB),
            borderRadius: BorderRadius.circular(5),
               ),
               ),
@@ -95,7 +95,7 @@ class WelcomePageDesk extends StatelessWidget {
                     child: Text('SEE MY RESUME', 
                       style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white,),),
                     decoration: BoxDecoration(
-                      color: Colors.blueAccent,
+                      color: Color(0xFFFF80AB),
            borderRadius: BorderRadius.circular(5),
               ),
               ),
@@ -139,7 +139,7 @@ class WelcomePageTab extends StatelessWidget {
                   Expanded(
                     child: Container( width: 60,height: 60,
                         child: IconButton(
-                          icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ),
+                          icon: Icon(FontAwesomeIcons.linkedin, color: Color(0xFFFF80AB), size: 40, ),
                           onPressed: ()
                           {
                             js.context.callMethod("open", ["https://www.linkedin.com/in/valentin-tapie-b8692b208/"]);
@@ -189,7 +189,7 @@ class WelcomePageTab extends StatelessWidget {
             child: Text('CONTACT ME', 
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white,),),
             decoration: BoxDecoration(
-                color: Colors.blueAccent,
+                color: Color(0xFFFF80AB),
                   borderRadius: BorderRadius.circular(5),
             ),
             ),
@@ -203,7 +203,7 @@ class WelcomePageTab extends StatelessWidget {
             child: Text('SEE MY RESUME', 
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white,),),
             decoration: BoxDecoration(
-                color: Colors.blueAccent,
+                color: Color(0xFFFF80AB),
                   borderRadius: BorderRadius.circular(5),
             ),
             ),
@@ -246,7 +246,7 @@ class WelcomePageMob extends StatelessWidget {
                 children: [
                     Container( width: 55,height: 55,
                         child: IconButton(
-                          icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ),
+                          icon: Icon(FontAwesomeIcons.linkedin, color:Color(0xFFFF80AB), size: 40, ),
                           onPressed: ()
                           {
                             js.context.callMethod("open", ["https://www.linkedin.com/in/naveenjujaray"]);
@@ -290,7 +290,7 @@ class WelcomePageMob extends StatelessWidget {
                 child: Text('CONTACT ME', 
                       style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white,),),
                 decoration: BoxDecoration(
-                      color: Colors.blueAccent,
+                      color: Color(0xFFFF80AB),
                         borderRadius: BorderRadius.circular(5),
             ),
             ),
@@ -311,7 +311,7 @@ class WelcomePageMob extends StatelessWidget {
                   child: Text('SEE MY RESUME', 
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900, color: Colors.white,),),
                   decoration: BoxDecoration(
-                    color: Colors.blueAccent,
+                    color: Color(0xFFFF80AB),
                         borderRadius: BorderRadius.circular(5),
             ),
             ),

@@ -25,7 +25,7 @@ class NavbarLogoMob extends StatelessWidget {
       child: Row(
         children: [
           Text('<', style: TextStyle(fontSize: 20),),
-          Text('Naveen Jujaray', style: TextStyle(color: Colors.blueAccent,fontSize: 20, fontFamily: 'Agustina'),),
+          Text('Valentin Tapie', style: TextStyle(color: Color(0xFFFF80AB),fontSize: 20, fontFamily: 'Agustina'),),
           Text('/', style: TextStyle(color: Colors.grey,fontSize: 20),),
           Text('>', style: TextStyle(fontSize: 20),)
         ],
@@ -44,7 +44,7 @@ class NavbarLogoDesk extends StatelessWidget {
       child: Row(
           children: [
             Text('<', style: TextStyle(fontSize: 30),),
-            Text('Naveen Jujaray', style: TextStyle(color: Colors.blueAccent,fontSize: 30, fontFamily: 'Agustina'),),
+            Text('Valentin Tapie', style: TextStyle(color:Color(0xFFFF80AB),fontSize: 30, fontFamily: 'Agustina'),),
             Text('/', style: TextStyle(color: Colors.grey,fontSize: 40),),
             Text('>', style: TextStyle(fontSize: 30),)
           ],
