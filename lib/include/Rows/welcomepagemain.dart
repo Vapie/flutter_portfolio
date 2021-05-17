@@ -90,7 +90,7 @@ class WelcomePageDesk extends StatelessWidget {
                   child: GestureDetector(
                     //TODO
     //              0120onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"]);
-                    },
+                 //   },
                                       child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                     child: Text('SEE MY RESUME', 
