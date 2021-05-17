@@ -89,8 +89,8 @@ class WelcomePageDesk extends StatelessWidget {
                Expanded(
                   child: GestureDetector(
                     //TODO
-    //              0120onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"]);
-                 //   },
+                  onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1lUro2l3lVb3Q5CRwqBNBRMdivf0P_kQw/view?usp=sharing"]);
+                    },
                                       child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                     child: Text('SEE MY RESUME', 
@@ -197,8 +197,8 @@ class WelcomePageTab extends StatelessWidget {
               ),
             SizedBox(width: 20,),
              GestureDetector(
-                 onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"]);
-                    },
+               onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1lUro2l3lVb3Q5CRwqBNBRMdivf0P_kQw/view?usp=sharing"]);
+               },
                             child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
             child: Text('SEE MY RESUME', 
@@ -305,8 +305,8 @@ class WelcomePageMob extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                      GestureDetector(
-                         onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"]);
-                    },
+                       onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1lUro2l3lVb3Q5CRwqBNBRMdivf0P_kQw/view?usp=sharing"]);
+                       },
                                             child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
                   child: Text('SEE MY RESUME', 
