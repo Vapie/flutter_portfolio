@@ -12,7 +12,7 @@ class SkillBarDesk extends StatelessWidget {
         children: <Widget>[
           Text('Strengths', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 32),),
           SizedBox(height: 30,),
-          Text('Backend programming/ Data transformation', style: TextStyle(fontSize: 18),),
+          Text('Backend programming/Data transformation', style: TextStyle(fontSize: 18),),
           RoundedProgressBar(
             style: RoundedProgressBarStyle(
                 colorProgress: Color(0xFFFF80AB),
@@ -59,7 +59,7 @@ class SkillBarTab extends StatelessWidget {
           children: <Widget>[
             Text('Strengths', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 32),),
             SizedBox(height: 30,),
-            Text('Backend programming/ Data transformation', style: TextStyle(fontSize: 18),),
+            Text('Backend programming/Data transformation', style: TextStyle(fontSize: 18),),
             RoundedProgressBar(
               style: RoundedProgressBarStyle(
                   colorProgress: Color(0xFFFF80AB),
@@ -107,7 +107,7 @@ class SkillBarMob extends StatelessWidget {
           children: <Widget>[
           Text('Strengths', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 32),),
             SizedBox(height: 30,),
-           Text('Backend programming/ Data transformation', style: TextStyle(fontSize: 18),),
+           Text('Backend programming/Data transformation', style: TextStyle(fontSize: 18),),
           RoundedProgressBar(
     style: RoundedProgressBarStyle(
         colorProgress: Color(0xFFFF80AB),

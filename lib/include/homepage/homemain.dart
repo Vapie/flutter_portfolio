@@ -50,12 +50,10 @@ class _HomeDesktopState extends State<HomeDesktop> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Flexible(
-                          child: ListView(
+                child: ListView(
                   physics: NeverScrollableScrollPhysics(),
                   shrinkWrap: true,
-
                   children: [
-                     
                     Row(
                       children: <Widget>[
                         Expanded(child: WelcomePage()),
@@ -96,7 +94,7 @@ class _HomeDesktopState extends State<HomeDesktop> {
                         Expanded(child: AchievementDesk()),
                       ],
                     ),
-                     SizedBox(
+                    SizedBox(
                       height: 75,
                     ),
                     Row(
@@ -104,22 +102,26 @@ class _HomeDesktopState extends State<HomeDesktop> {
                         Expanded(child: BlogCenterDesk()),
                       ],
                     ),
-                     SizedBox(
+                    SizedBox(
                       height: 75,
                     ),
-                     Row(
+                    Row(
                       children: [
                         Expanded(child: ContactCenterDesk()),
-                        Expanded(child: FourDesk(),),
+                        Expanded(
+                          child: FourDesk(),
+                        ),
                       ],
                     ),
-                    SizedBox(height: 100,),
+                    SizedBox(
+                      height: 100,
+                    ),
+
                     Row(
                       children: [
                         Expanded(child: FooterPage()),
                       ],
                     ),
-                    
                   ],
                 ),
               ),
@@ -140,7 +142,7 @@ class HomeMobile extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Flexible(
-                  child: ListView(
+            child: ListView(
               shrinkWrap: true,
               physics: NeverScrollableScrollPhysics(),
               children: <Widget>[
@@ -152,7 +154,9 @@ class HomeMobile extends StatelessWidget {
                 AchievementMob(),
                 BlogCenterMob(),
                 ContactCenterMob(),
-                SizedBox(height: 50,),
+                SizedBox(
+                  height: 50,
+                ),
                 FooterPage()
               ],
             ),
@@ -172,9 +176,9 @@ class HomeTab extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Flexible(
-                  child: ListView(   
-                    shrinkWrap: true,     
-                    physics: NeverScrollableScrollPhysics(),
+            child: ListView(
+              shrinkWrap: true,
+              physics: NeverScrollableScrollPhysics(),
               children: <Widget>[
                 WelcomePageTab(),
                 OneTab(),
@@ -184,7 +188,9 @@ class HomeTab extends StatelessWidget {
                 AchievementTab(),
                 BlogCenterTab(),
                 ContactCenterTab(),
-                SizedBox(height: 50,),
+                SizedBox(
+                  height: 50,
+                ),
                 FooterMob(),
               ],
             ),

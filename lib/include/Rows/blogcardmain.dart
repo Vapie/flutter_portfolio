@@ -61,7 +61,7 @@ class BlogCardDesk extends StatelessWidget {
                             height: 10,
                           ),
                           Text(
-                              "Internship in a web dev companny, I was working on a lot of different projects for different clients, I was working on a custom C# based CMS in ASP.Net.",
+                              "Internship in a web dev company, I was working on a lot of different projects for different clients, I was working on a custom C# based CMS in ASP.Net.",
                               style: GoogleFonts.montserrat(
                                 textStyle: TextStyle(
                                   fontSize: 16,
@@ -108,7 +108,7 @@ class BlogCardDesk extends StatelessWidget {
                             height: 10,
                           ),
                           Text(
-                              "During my LP DIM, i was working in a company called ATMB. I handeled a project about counting cars on the highway. this project involved knowledges about database.",
+                              "During my LP DIM, I was working in a company called ATMB. I handled a project about counting cars on the highway. This project involved knowledges about database.",
                               style: GoogleFonts.montserrat(
                                 textStyle: TextStyle(
                                   fontSize: 16,
@@ -196,7 +196,7 @@ class BlogCardTab extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                                "Internship in a web dev companny, I was working on a lot of different projects for different clients, I was working on a custom C# based CMS in ASP.Net.",
+                                "Internship in a web dev company, I was working on a lot of different projects for different clients, I was working on a custom C# based, CMS in ASP.Net.",
                                 style: GoogleFonts.montserrat(
                                   textStyle: TextStyle(
                                     fontSize: 16,
@@ -243,7 +243,7 @@ class BlogCardTab extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                                "During my LP DIM, i was working in a company called ATMB. I handeled a project about counting cars on the highway. this project involved knowledges about database.",
+                                "During my LP DIM, I was working in a company called ATMB. I handled a project about counting cars on the highway. This project involved knowledges about database.",
                                 style: GoogleFonts.montserrat(
                                   textStyle: TextStyle(
                                     fontSize: 16,
@@ -329,7 +329,7 @@ class BlogCardMob extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                                "Internship in a web dev companny, I was working on a lot of different projects for different clients, I was working on a custom C# based CMS in ASP.Net.",
+                                "Internship in a web dev company, I was working on a lot of different projects for different clients, I was working on a custom C# based, CMS in ASP.Net.",
                                 style: GoogleFonts.montserrat(
                                   textStyle: TextStyle(
                                     fontSize: 16,
@@ -376,7 +376,7 @@ class BlogCardMob extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                                "During my LP DIM, i was working in a company called ATMB. I handeled a project about counting cars on the highway. this project involved knowledges about database.",
+                                "During my LP DIM, I was working in a company called ATMB. I handled a project about counting cars on the highway. This project involved knowledges about database.",
                                 style: GoogleFonts.montserrat(
                                   textStyle: TextStyle(
                                     fontSize: 16,

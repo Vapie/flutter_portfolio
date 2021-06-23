@@ -21,9 +21,6 @@ class LayoutTemplate extends StatelessWidget {
           children: <Widget>[
             NavigationBar(),
 
-
-
-
             Expanded(
               child: Navigator(
                 key: locator<NavigationService>().navigatorKey,
