@@ -200,7 +200,6 @@ class SkillsLogoMob extends StatelessWidget {
            ),
            SizedBox(height: 20,),
             Text("> Develop full stacks applications ( Android, IOS, ...) with new techs.", style: TextStyle(fontSize: 18),),
-
            SizedBox(height: 10,),
             Text("> Web applications, with front end and back end. From the idea to the release.", style: TextStyle(fontSize: 18),),
            SizedBox(height: 10,),

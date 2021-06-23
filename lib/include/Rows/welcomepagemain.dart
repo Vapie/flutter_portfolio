@@ -99,7 +99,7 @@ class WelcomePageDesk extends StatelessWidget {
                Expanded(
                   child: GestureDetector(
                     //TODO
-                  onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1fAZcZwS4vPFokFY97zlegjZrhLlLJ1uj/view?usp=sharing"]);
+                  onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/14ph58gza0iFesu5hjIkqJ74u-kqkBNKP/view?usp=sharing"]);
                     },
                                       child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
@@ -249,7 +249,7 @@ class WelcomePageTab extends StatelessWidget {
               ),
             SizedBox(width: 20,),
              GestureDetector(
-               onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1fAZcZwS4vPFokFY97zlegjZrhLlLJ1uj/view?usp=sharing"]);
+               onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/14ph58gza0iFesu5hjIkqJ74u-kqkBNKP/view?usp=sharing"]);
                },
                             child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
@@ -398,7 +398,7 @@ class WelcomePageMob extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                      GestureDetector(
-                       onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1fAZcZwS4vPFokFY97zlegjZrhLlLJ1uj/view?usp=sharing"]);
+                       onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/14ph58gza0iFesu5hjIkqJ74u-kqkBNKP/view?usp=sharing"]);
                        },
                                             child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
